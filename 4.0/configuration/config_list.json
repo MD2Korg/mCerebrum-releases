@@ -1,67 +1,82 @@
-{
-  "robas": [
+[
   {
-    "id": "motionsense",
-    "title": "MotionSense",
+    "type": "robas",
+    "id": "robas1",
+    "title": "Robas1",
     "description": "Collects MotionSense Data",
+    "version": "2.0.0",
     "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
   },
   {
+    "type": "robas",
     "id": "motionsense1",
     "title": "MotionSense1",
     "description": "Collects MotionSense Data",
+    "version": "2.0.1",
     "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
   },
   {
+    "type": "robas",
     "id": "motionsense2",
     "title": "MotionSense2",
     "description": "Collects MotionSense Data",
+    "version": "2.0.0",
     "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
   },
   {
+    "type": "robas",
     "id": "motionsense3",
     "title": "MotionSense3",
+    "version": "2.0.0",
     "description": "Collects MotionSense Data",
     "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
   },
   {
+    "type": "robas",
     "id": "motionsense4",
     "title": "MotionSense4",
     "description": "Collects MotionSense Data",
+    "version": "2.0.0",
+    "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
+  },
+  {
+    "type": "rice",
+    "id": "motionsense",
+    "title": "MotionSense",
+    "description": "Collects MotionSense Data",
+    "version": "2.0.0",
+    "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
+  },
+  {
+    "type": "rice",
+    "id": "motionsense1",
+    "title": "MotionSense1",
+    "description": "Collects MotionSense Data",
+    "version": "2.0.0",
+    "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
+  },
+  {
+    "type": "rice",
+    "id": "motionsense2",
+    "title": "MotionSense2",
+    "description": "Collects MotionSense Data",
+    "version": "2.0.0",
+    "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
+  },
+  {
+    "type": "rice",
+    "id": "motionsense3",
+    "title": "MotionSense3",
+    "description": "Collects MotionSense Data",
+    "version": "2.0.0",
+    "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
+  },
+  {
+    "type": "rice",
+    "id": "motionsense4",
+    "title": "MotionSense4",
+    "description": "Collects MotionSense Data",
+    "version": "2.0.0",
     "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
   }
-],
-  "rice": [
-    {
-      "id": "motionsense",
-      "title": "MotionSense",
-      "description": "Collects MotionSense Data",
-      "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
-    },
-    {
-      "id": "motionsense1",
-      "title": "MotionSense1",
-      "description": "Collects MotionSense Data",
-      "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
-    },
-    {
-      "id": "motionsense2",
-      "title": "MotionSense2",
-      "description": "Collects MotionSense Data",
-      "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
-    },
-    {
-      "id": "motionsense3",
-      "title": "MotionSense3",
-      "description": "Collects MotionSense Data",
-      "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
-    },
-    {
-      "id": "motionsense4",
-      "title": "MotionSense4",
-      "description": "Collects MotionSense Data",
-      "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/2.0/org.md2k.autosense/autosense2.0.0.apk"
-    }
-  ]
-
-}
+]
