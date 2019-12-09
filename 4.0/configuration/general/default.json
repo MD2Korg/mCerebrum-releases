@@ -1,0 +1,342 @@
+{
+  "config_type": "general",
+  "config_id": "default",
+  "config_version": "1.0.0",
+  "config_description": "abc",
+  "study_name": "default",
+
+  "core": {
+    "archive_enable": false,
+    "archive_storageLimit": "1GB",
+    "archive_fileSizeLimit": "10MB",
+
+    "database_rowLimit": 500,
+
+    "uploader_enable": true,
+    "uploader_active": true,
+    "uploader_storageLimit": "1.5GB",
+    "uploader_fileSizeLimit": "1MB",
+
+    "server_url": "https://odin.md2k.org",
+    "server_userId": "abc",
+    "server_password": "abc",
+    "server_isLoggedIn": false,
+    "uploader_rules": [
+      {
+        "type": "interval",
+        "interval": 900000,
+        "dataSource": "",
+        "time": "",
+        "condition": "",
+        "uploadDataSource": [],
+        "restrictDataSource": []
+      }
+    ],
+
+    "privacy_enable": false,
+    "privacy_durationChoices": [
+      {"id": "5_minutes", "title":"5 Minutes", "value": 300000},
+      {"id": "10_minutes", "title":"10 Minutes", "value": 600000},
+      {"id": "15_minutes", "title":"15 Minutes", "value": 900000},
+      {"id": "30_minutes", "title":"30 Minutes", "value": 1800000},
+      {"id": "1_hour", "title":"1 Hour", "value": 3600000},
+      {"id": "2_hour", "title":"2 Hours", "value": 7200000}
+    ],
+    "privacy_dataSourceChoices": [
+      {
+        "id": "autosense",
+        "title":"Chest Sensor",
+        "value": [
+          "--------autosense-"
+        ]
+      },
+      {
+        "id": "wrist_sensor",
+        "title":"Wrist Watch",
+        "value": [
+          "-------motionsense-",
+          "-------motionsense-"
+        ]
+      },
+      {
+        "id": "survey",
+        "title":"Survey",
+        "value": [
+          "-scheduler-------"
+        ]
+      },
+      {
+        "id": "location",
+        "title":"Location",
+        "value": [
+
+        ]
+      },
+      {
+        "id": "all",
+        "title":"All",
+        "value": [
+
+        ]
+      }
+    ]
+  },
+  "phonesensor": {
+    "accelerometer_enable": true,
+    "accelerometer_sampleRate": 16,
+    "accelerometer_sampleRateUnit": "SECOND",
+    "accelerometer_writeType": "FIXED",
+
+    "accelerometerLinear_enable": true,
+    "accelerometerLinear_sampleRate": 16,
+    "accelerometerLinear_sampleRateUnit": "SECOND",
+    "accelerometerLinear_writeType": "FIXED",
+
+    "gyroscope_enable": true,
+    "gyroscope_sampleRate": 16,
+    "gyroscope_sampleRateUnit": "SECOND",
+    "gyroscope_writeType": "FIXED",
+
+    "magnetometer_enable": true,
+    "magnetometer_sampleRate": 16,
+    "magnetometer_sampleRateUnit": "SECOND",
+    "magnetometer_writeType": "FIXED",
+
+    "gravity_enable": true,
+    "gravity_sampleRate": 16,
+    "gravity_sampleRateUnit": "SECOND",
+    "gravity_writeType": "FIXED",
+
+    "ambientLight_enable": true,
+    "ambientLight_sampleRate": 16,
+    "ambientLight_sampleRateUnit": "SECOND",
+    "ambientLight_writeType": "FIXED",
+
+    "airPressure_enable": true,
+    "airPressure_sampleRate": 16,
+    "airPressure_sampleRateUnit": "SECOND",
+    "airPressure_writeType": "FIXED",
+
+    "ambientTemperature_enable": true,
+    "ambientTemperature_sampleRate": 16,
+    "ambientTemperature_sampleRateUnit": "SECOND",
+    "ambientTemperature_writeType": "FIXED",
+
+    "proximity_enable": true,
+    "proximity_sampleRate": 6,
+    "proximity_sampleRateUnit": "SECOND",
+    "proximity_writeType": "FIXED",
+
+    "relativeHumidity_enable": true,
+    "relativeHumidity_sampleRate": 6,
+    "relativeHumidity_sampleRateUnit": "SECOND",
+    "relativeHumidity_writeType": "FIXED",
+
+    "significantMotion_enable": true,
+    "significantMotion_writeType": "FIXED",
+
+    "chargingStatus_enable": true,
+    "chargingStatus_sampleRate": 1,
+    "chargingStatus_sampleRateUnit": "SECOND",
+    "chargingStatus_writeType": "FIXED",
+
+    "bluetoothStatus_enable": true,
+    "bluetoothStatus_sampleRate": 1,
+    "bluetoothStatus_sampleRateUnit": "SECOND",
+    "bluetoothStatus_writeType": "FIXED",
+
+    "gpsStatus_enable": true,
+    "gpsStatus_sampleRate": 1,
+    "gpsStatus_sampleRateUnit": "SECOND",
+    "gpsStatus_writeType": "FIXED",
+
+    "wifiStatus_enable": true,
+    "wifiStatus_sampleRate": 1,
+    "wifiStatus_sampleRateUnit": "SECOND",
+    "wifiStatus_writeType": "FIXED",
+
+    "battery_enable": true,
+    "battery_sampleRate": 1,
+    "battery_sampleRateUnit": "SECOND",
+    "battery_writeType": "FIXED",
+
+    "activityType_enable": true,
+    "activityType_sampleRate": 1,
+    "activityType_sampleRate_unit": "MINUTE",
+    "activityType_writeType": "FIXED",
+
+    "gps_enable": true,
+    "gps_sampleRate": 12,
+    "gps_sampleRateUnit": "MINUTE",
+    "gps_writeType": "AS_RECEIVED"
+  },
+  "motionsense": {
+    "requiredDeviceNo": 0,
+    "requiredDevices": [
+      {
+        "platformType": "MOTION_SENSE_HRV",
+        "platformId": "LEFT_WRIST",
+        "isRequired": true
+      },
+      {
+        "platformType": "MOTION_SENSE_HRV",
+        "platformId": "RIGHT_WRIST",
+        "isRequired": true
+      }
+    ],
+    "settings": [
+      {
+        "platformType": "MOTION_SENSE_HRV",
+        "platformId": "LEFT_WRIST",
+        "deviceId": "32:32:32:32:23:23:323",
+        "settings": [
+
+        ]
+      }
+    ],
+    "defaultSettings": [
+      {
+        "platformType": "MOTION_SENSE",
+        "writeType": "FIXED",
+        "accelerometerEnable": true,
+        "gyroscopeEnable": true,
+        "sequenceNumberMotionEnable": true,
+        "rawMotionEnable": true,
+        "batteryEnable": true,
+        "accelerometerDataQualityEnable": true
+      },
+      {
+        "platformType": "MOTION_SENSE_HRV",
+        "writeType": "FIXED",
+        "accelerometerEnable": true,
+        "gyroscopeEnable": true,
+        "sequenceNumberMotionEnable": true,
+        "rawMotionEnable": true,
+        "batteryEnable": true,
+        "ppgEnable": true,
+        "accelerometerDataQualityEnable": true,
+        "ppgDataQualityEnable": true
+      },
+      {
+        "platformType": "MOTION_SENSE_HRV_PLUS",
+        "writeType": "FIXED",
+        "accelerometerEnable": true,
+        "quaternionEnable": true,
+        "sequenceNumberMotionEnable": true,
+        "rawMotionEnable": true,
+        "batteryEnable": true,
+        "ppgEnable": true,
+        "magnetometerEnable": true,
+        "magnetometerSensitivityEnable": true,
+        "sequenceNumberMagnetometerEnable": true,
+        "rawMagnetometerEnable": true,
+        "accelerometerDataQualityEnable": true,
+        "ppgDataQualityEnable": true
+      },
+      {
+        "platformType": "MOTION_SENSE_V2",
+        "writeType": "FIXED",
+        "characteristicMotion": 25,
+        "accelerometerEnable": true,
+        "accelerometerSensitivity": 4,
+        "accelerometerDataQualityEnable": true,
+        "gyroscopeEnable": true,
+        "gyroscopeSensitivity": 500,
+        "sequenceNumberMotionEnable": true,
+        "rawMotionEnable": true,
+        "batteryEnable": true,
+        "minConnectionInterval": 10
+      },
+      {
+        "platformType": "MOTION_SENSE_HRV_V2",
+        "writeType": "FIXED",
+        "characteristicMotion": 25,
+        "characteristicPpg": 25,
+        "accelerometerEnable": true,
+        "accelerometerSensitivity": 4,
+        "accelerometerDataQualityEnable": true,
+        "gyroscopeEnable": true,
+        "gyroscopeSensitivity": 500,
+        "sequenceNumberMotionEnable": true,
+        "rawMotionEnable": true,
+        "batteryEnable": true,
+        "ppgEnable": true,
+        "ppgRed": 62,
+        "ppgGreen": 104,
+        "ppgInfrared": 20,
+        "ppgFilterEnable": false,
+        "sequenceNumberPpgEnable": true,
+        "rawPpgEnable": true,
+        "ppgDataQualityEnable": true,
+        "minConnectionInterval": 10
+      },
+      {
+        "platformType": "MOTION_SENSE_HRV_PLUS_V2",
+        "writeType": "FIXED",
+        "characteristicMotion": 25,
+        "characteristicPpg": 25,
+        "accelerometerEnable": true,
+        "accelerometerSensitivity": 4,
+        "accelerometerDataQualityEnable": true,
+        "gyroscopeEnable": true,
+        "gyroscopeSensitivity": 500,
+        "sequenceNumberMotionEnable": true,
+        "rawMotionEnable": true,
+        "batteryEnable": true,
+        "ppgEnable": true,
+        "ppgRed": 62,
+        "ppgGreen": 104,
+        "ppgInfrared": 20,
+        "ppgFilterEnable": false,
+        "sequenceNumberPpgEnable": true,
+        "rawPpgEnable": true,
+        "ppgDataQualityEnable": true,
+        "magnetometerEnable": true,
+        "magnetometerSensitivityEnable": true,
+        "sequenceNumberMagnetometerEnable": true,
+        "rawMagnetometerEnable": true,
+        "minConnectionInterval": 10
+      },
+      {
+        "platformType": "MOTION_SENSE_HRV_PLUS_GEN2",
+        "writeType": "FIXED",
+        "characteristicMotion": 25,
+        "characteristicPpg": 25,
+        "accelerometerEnable": true,
+        "accelerometerSensitivity": 4,
+        "accelerometerDataQualityEnable": true,
+        "gyroscopeEnable": true,
+        "gyroscopeSensitivity": 500,
+        "sequenceNumberMotionEnable": true,
+        "rawMotionEnable": true,
+        "batteryEnable": true,
+        "ppgEnable": true,
+        "ppgRed": 62,
+        "ppgGreen": 104,
+        "ppgInfrared": 20,
+        "ppgFilterEnable": false,
+        "sequenceNumberPpgEnable": true,
+        "rawPpgEnable": true,
+        "ppgDataQualityEnable": true,
+        "magnetometerEnable": true,
+        "magnetometerSensitivityEnable": true,
+        "sequenceNumberMagnetometerEnable": true,
+        "rawMagnetometerEnable": true,
+        "minConnectionInterval": 10
+      },
+      {
+        "platformType": "AUTO_SENSE",
+        "writeType": "FIXED",
+        "accelerometerEnable": true,
+        "respirationEnable": true,
+        "ecgEnable": true,
+        "sequenceNumberMotionEnable": true,
+        "rawMotionEnable": true,
+        "batteryEnable": true,
+        "accelerometerDataQualityEnable": true,
+        "respirationDataQualityEnable": true,
+        "ecgDataQualityEnable": true
+      }
+    ]
+  }
+}
