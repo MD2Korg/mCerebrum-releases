@@ -1,7 +1,14 @@
 [
   {
     "type": "general",
-    "id": "default",
+    "id": "phonesensor",
+    "description": "Collects PhoneSensor Data",
+    "version": "4.0.0",
+    "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/4.0/configuration/general/default.json"
+  },
+  {
+    "type": "general",
+    "id": "motionsense",
     "description": "Collects MotionSense Data",
     "version": "4.0.0",
     "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/4.0/configuration/general/default.json"
@@ -10,7 +17,7 @@
     "type": "moods",
     "id": "moods_test",
     "description": "Test configuration file for moods study",
-    "version": "4.0.0",
-    "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/4.0/configuration/moods/moods_test.json"
+    "version": "1.0.0",
+    "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/4.0/configuration/moods/moods_test1.0.0.zip"
   }
 ]

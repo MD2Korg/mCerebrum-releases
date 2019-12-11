@@ -1,11 +1,12 @@
 {
-  "config_type": "moods",
-  "config_id": "moods_test",
-  "config_version": "1.0.0",
-  "config_description": "abc",
-  "study_name": "moods",
+  "type": "moods",
+  "id": "test",
+  "version": "1.0.0",
+  "description": "Configuration file Moods Study",
 
   "core": {
+    "study_name": "default",
+
     "archive_enable": false,
     "archive_storageLimit": "1GB",
     "archive_fileSizeLimit": "10MB",
@@ -16,11 +17,9 @@
     "uploader_active": true,
     "uploader_storageLimit": "1.5GB",
     "uploader_fileSizeLimit": "1MB",
-
-    "server_url": "https://odin.md2k.org",
-    "server_userId": "abc",
-    "server_password": "abc",
-    "server_isLoggedIn": false,
+    "uploader_url": "https://odin.md2k.org",
+    "uploader_userId": "abc",
+    "uploader_password": "abc",
     "uploader_rules": [
       {
         "type": "interval",
@@ -35,48 +34,46 @@
 
     "privacy_enable": false,
     "privacy_durationChoices": [
-      {"id": "5_minutes", "title":"5 Minutes", "value": 300000},
-      {"id": "10_minutes", "title":"10 Minutes", "value": 600000},
-      {"id": "15_minutes", "title":"15 Minutes", "value": 900000},
-      {"id": "30_minutes", "title":"30 Minutes", "value": 1800000},
-      {"id": "1_hour", "title":"1 Hour", "value": 3600000},
-      {"id": "2_hour", "title":"2 Hours", "value": 7200000}
+      {"id": "5_minutes", "title": "5 Minutes", "duration": 300000},
+      {"id": "10_minutes", "title": "10 Minutes", "duration": 600000},
+      {"id": "15_minutes", "title": "15 Minutes", "duration": 900000},
+      {"id": "30_minutes", "title": "30 Minutes", "duration": 1800000},
+      {"id": "1_hour", "title": "1 Hour", "duration": 3600000},
+      {"id": "2_hour", "title": "2 Hours", "duration": 7200000}
     ],
     "privacy_dataSourceChoices": [
       {
         "id": "autosense",
-        "title":"Chest Sensor",
-        "value": [
+        "title": "Chest Sensor",
+        "dataSources": [
           "--------autosense-"
         ]
       },
       {
         "id": "wrist_sensor",
-        "title":"Wrist Watch",
-        "value": [
+        "title": "Wrist Watch",
+        "dataSources": [
           "-------motionsense-",
           "-------motionsense-"
         ]
       },
       {
         "id": "survey",
-        "title":"Survey",
-        "value": [
+        "title": "Survey",
+        "dataSources": [
           "-scheduler-------"
         ]
       },
       {
         "id": "location",
-        "title":"Location",
-        "value": [
-
+        "title": "Location",
+        "dataSources": [
         ]
       },
       {
         "id": "all",
-        "title":"All",
-        "value": [
-
+        "title": "All",
+        "dataSources": [
         ]
       }
     ]
@@ -190,7 +187,6 @@
         "platformId": "LEFT_WRIST",
         "deviceId": "32:32:32:32:23:23:323",
         "settings": [
-
         ]
       }
     ],
