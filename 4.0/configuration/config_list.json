@@ -2,7 +2,7 @@
   {
     "id": "phonesensor",
     "description": "Collects PhoneSensor Data",
-    "version": "4.0.0",
+    "version": "1.0.0",
     "url": "https://raw.githubusercontent.com/MD2Korg/mCerebrum-releases/master/4.0/configuration/phonesensor.1.0.0.zip"
   }
 ]
